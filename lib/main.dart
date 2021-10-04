@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
       home: HomeScreen(),
       routes: {
         '/grouped-button': (_) => GroupedButton(),
-        // '/radio-button': (_) => GroupedButton(),
         '/grouped-radio-button': (_) => RadioButton(),
         '/menu-button': (_) => MenuButton(),
         '/fab-button': (_) => FabButton(),
