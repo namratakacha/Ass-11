@@ -64,11 +64,11 @@ class _MyListState extends State<MyList> {
                     },
                     icon: Icon(
                       Icons.thumb_up_alt,
-                      color: isSelected ? Colors.black : Colors.blue,
+                      color: isSelected ? Colors.blue : Colors.black,
                     ),
                     label: Text('Like',
                         style: TextStyle(
-                            color: isSelected ? Colors.black : Colors.blue))),
+                            color: isSelected ? Colors.blue : Colors.black))),
                 TextButton.icon(
                     onPressed: () {},
                     icon: Icon(

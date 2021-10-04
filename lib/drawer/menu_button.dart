@@ -8,8 +8,12 @@ class MenuButton extends StatefulWidget {
 }
 
 class _MenuButtonState extends State<MenuButton> {
-  String? _chosenValue;
-  var _currentItemSelected = 'Low';
+  String? _chosenValue = 'Low';
+  String? _chosenValue2 = 'Low';
+  String? _chosenValue3 = 'Lorem ipsum';
+  String? _chosenValue4 = 'Low';
+
+  //var _currentItemSelected = 'Low';
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +57,7 @@ class _MenuButtonState extends State<MenuButton> {
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
                 child: DropdownButton(
-                    value: _chosenValue,
+                    value: _chosenValue2,
                     items: <String>[
                       'Low',
                       'Medium',
@@ -68,7 +72,7 @@ class _MenuButtonState extends State<MenuButton> {
                         .toList(),
                     onChanged: (String? value) {
                       setState(() {
-                        _chosenValue = value;
+                        _chosenValue2 = value;
                       });
                     }),
               ),
@@ -79,7 +83,7 @@ class _MenuButtonState extends State<MenuButton> {
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
                 child: DropdownButton(
-                    value: _chosenValue,
+                    value: _chosenValue3,
                     items: <String>[
                       'Lorem ipsum',
                       'Lorem ipsum dolor sit',
@@ -94,7 +98,7 @@ class _MenuButtonState extends State<MenuButton> {
                         .toList(),
                     onChanged: (String? value) {
                       setState(() {
-                        _chosenValue = value;
+                        _chosenValue3 = value;
                       });
                     }),
               ),
@@ -105,7 +109,7 @@ class _MenuButtonState extends State<MenuButton> {
               Padding(
                 padding: EdgeInsets.only(bottom: 10),
                 child: DropdownButton(
-                    value: _chosenValue,
+                    value: _chosenValue4,
                     items: <String>['Low', 'Medium', 'High']
                         .map(
                           (String value) => DropdownMenuItem<String>(
@@ -116,7 +120,7 @@ class _MenuButtonState extends State<MenuButton> {
                         .toList(),
                     onChanged: (String? value) {
                       setState(() {
-                        _chosenValue = value;
+                        _chosenValue4 = value;
                       });
                     }),
               ),

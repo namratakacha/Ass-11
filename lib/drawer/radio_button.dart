@@ -15,12 +15,12 @@ class _RadioButtonState extends State<RadioButton> {
         appBar: AppBar(
           backgroundColor: Colors.blue,
           foregroundColor: Colors.white,
-          title: Text('Grouped button example'),
+          title: Text('Grouped radio button example'),
         ),
         floatingActionButton: FloatingActionButton.extended(
-            label: Text('Grouped Button'),
+            label: Text('Grouped radio Button'),
             onPressed: () {
-              Navigator.of(context).pushNamed('/radio-button');
+              Navigator.of(context).pushNamed('/grouped-radio-button');
             },
             icon: Icon(Icons.check_box)),
         body: Container(

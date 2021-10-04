@@ -51,7 +51,7 @@ class _MainDrawerState extends State<MainDrawer> {
               leading: Icon(Icons.note),
               title: Text('Radio button example'),
               onTap: () {
-                Navigator.of(context).pushNamed('/radio-button');
+                Navigator.of(context).pushNamed('/grouped-radio-button');
               }),
           ListTile(
               leading: Icon(Icons.note),
