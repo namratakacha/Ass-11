@@ -26,7 +26,7 @@ class _RadioButtonState extends State<RadioButton> {
         body: Container(
           child: ListView(
             children: [
-              Text('Horizontal',
+              Text('Verticle',
                   textAlign: TextAlign.center, style: TextStyle(fontSize: 22)),
               Row(
                 children: [
@@ -87,7 +87,7 @@ class _RadioButtonState extends State<RadioButton> {
                 ],
               ),
               SizedBox(height: 10),
-              Text('Verticle',
+              Text('Horizontal',
                   textAlign: TextAlign.center, style: TextStyle(fontSize: 22)),
               Column(
                 children: [

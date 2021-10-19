@@ -27,7 +27,7 @@ class _GroupedButtonState extends State<GroupedButton> {
         body: Container(
           child: ListView(
             children: [
-              Text('Horizontal',
+              Text('Verticle',
                   textAlign: TextAlign.center, style: TextStyle(fontSize: 22)),
               Row(
                 children: [
@@ -92,7 +92,7 @@ class _GroupedButtonState extends State<GroupedButton> {
                 ],
               ),
               SizedBox(height: 10),
-              Text('Verticle',
+              Text('Horizontal',
                   textAlign: TextAlign.center, style: TextStyle(fontSize: 22)),
               Column(
                 children: [
